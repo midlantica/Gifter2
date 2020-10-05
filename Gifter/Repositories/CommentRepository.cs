@@ -84,8 +84,9 @@ namespace Gifter.Repositories
                 using (var cmd = conn.CreateCommand())
                 {
                     cmd.CommandText = @"
-                          SELECT UserProfileId, PostId, Message
-                            FROM Comment
+                          SELECT UserProfileId, PostId, Message, Name
+                            FROM Comment c
+                            LEFT JOIN UserProfile up ON UserProfileId = up.Id
                            WHERE PostId = @Id";
 
                     DbUtils.AddParameter(cmd, "@Id", id);
@@ -100,7 +101,11 @@ namespace Gifter.Repositories
                             Id = DbUtils.GetInt(reader, "Id"),
                             UserProfileId = DbUtils.GetInt(reader, "UserProfileId"),
                             PostId = DbUtils.GetInt(reader, "PostId"),
-                            Message = DbUtils.GetString(reader, "Message")
+                            Message = DbUtils.GetString(reader, "Message"),
+                            UserProfile = new UserProfile()
+                            {
+                                Name = DbUtils.GetString(reader, "Name")
+                            }
                         };
                     }
 
