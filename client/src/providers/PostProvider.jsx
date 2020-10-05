@@ -7,11 +7,17 @@ export const PostProvider = (props) => {
   const [ searchTerms, setTerms ] = useState("")
 
   const getPost = (id) => {
-    return fetch(`/api/post/${id}`).then((res) => res.json());
+    return fetch(`/api/post/GetWithPostComments/${id}`).then((res) => res.json());
   };
 
   const getAllPosts = () => {
     return fetch("/api/post/getwithcomments")
+      .then((res) => res.json())
+      .then(setPosts);
+  };
+
+  const getPostsByUser = (id) => {
+    return fetch(`/api/post/users/${id}`)
       .then((res) => res.json())
       .then(setPosts);
   };
@@ -28,7 +34,7 @@ export const PostProvider = (props) => {
 
   return (
     <PostContext.Provider value={{ 
-        searchTerms, posts, getAllPosts, addPost, getPost, setTerms
+        searchTerms, posts, getAllPosts, addPost, getPost, setTerms, getPostsByUser
     }}>
       {props.children}
     </PostContext.Provider>

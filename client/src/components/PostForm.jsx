@@ -30,10 +30,9 @@ const PostForm = () => {
       userProfileId: +userProfileId,
     };
 
-    addPost(post).then(() =>
-      getAllPosts()
-    );
-
+    addPost(post).then((p) => {
+      history.push("/");
+    });
   };
 
   return (
