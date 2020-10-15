@@ -86,7 +86,6 @@ C:\Users\drewharper\workspace\Gifter2\Gifter\bin\Debug\netcoreapp3.1\runtimes\wi
 C:\Users\drewharper\workspace\Gifter2\Gifter\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\drewharper\workspace\Gifter2\Gifter\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\drewharper\workspace\Gifter2\Gifter\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\drewharper\workspace\Gifter2\Gifter\obj\Debug\netcoreapp3.1\Gifter.csprojAssemblyReference.cache
 C:\Users\drewharper\workspace\Gifter2\Gifter\obj\Debug\netcoreapp3.1\Gifter.AssemblyInfoInputs.cache
 C:\Users\drewharper\workspace\Gifter2\Gifter\obj\Debug\netcoreapp3.1\Gifter.AssemblyInfo.cs
 C:\Users\drewharper\workspace\Gifter2\Gifter\obj\Debug\netcoreapp3.1\Gifter.csproj.CoreCompileInputs.cache
@@ -98,3 +97,4 @@ C:\Users\drewharper\workspace\Gifter2\Gifter\obj\Debug\netcoreapp3.1\staticwebas
 C:\Users\drewharper\workspace\Gifter2\Gifter\obj\Debug\netcoreapp3.1\Gifter.dll
 C:\Users\drewharper\workspace\Gifter2\Gifter\obj\Debug\netcoreapp3.1\Gifter.pdb
 C:\Users\drewharper\workspace\Gifter2\Gifter\obj\Debug\netcoreapp3.1\Gifter.genruntimeconfig.cache
+C:\Users\drewharper\workspace\Gifter2\Gifter\obj\Debug\netcoreapp3.1\Gifter.csprojAssemblyReference.cache
