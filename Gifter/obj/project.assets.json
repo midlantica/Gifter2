@@ -6770,19 +6770,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\odais\\.nuget\\packages\\": {}
+    "C:\\Users\\drewharper\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\odais\\workspace\\csharp\\Gifter\\Gifter\\Gifter.csproj",
+      "projectUniqueName": "C:\\Users\\drewharper\\workspace\\Gifter2\\Gifter\\Gifter.csproj",
       "projectName": "Gifter",
-      "projectPath": "C:\\Users\\odais\\workspace\\csharp\\Gifter\\Gifter\\Gifter.csproj",
-      "packagesPath": "C:\\Users\\odais\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\odais\\workspace\\csharp\\Gifter\\Gifter\\obj\\",
+      "projectPath": "C:\\Users\\drewharper\\workspace\\Gifter2\\Gifter\\Gifter.csproj",
+      "packagesPath": "C:\\Users\\drewharper\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\drewharper\\workspace\\Gifter2\\Gifter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\odais\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\drewharper\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

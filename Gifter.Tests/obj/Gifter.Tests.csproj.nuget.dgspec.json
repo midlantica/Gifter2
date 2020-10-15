@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drewharper\\workspace\\Gifter2\\Gifter\\Gifter.csproj": {}
+    "C:\\Users\\drewharper\\workspace\\Gifter2\\Gifter.Tests\\Gifter.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drewharper\\workspace\\Gifter2\\Gifter\\Gifter.csproj": {
+    "C:\\Users\\drewharper\\workspace\\Gifter2\\Gifter.Tests\\Gifter.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drewharper\\workspace\\Gifter2\\Gifter\\Gifter.csproj",
-        "projectName": "Gifter",
-        "projectPath": "C:\\Users\\drewharper\\workspace\\Gifter2\\Gifter\\Gifter.csproj",
+        "projectUniqueName": "C:\\Users\\drewharper\\workspace\\Gifter2\\Gifter.Tests\\Gifter.Tests.csproj",
+        "projectName": "Gifter.Tests",
+        "projectPath": "C:\\Users\\drewharper\\workspace\\Gifter2\\Gifter.Tests\\Gifter.Tests.csproj",
         "packagesPath": "C:\\Users\\drewharper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drewharper\\workspace\\Gifter2\\Gifter\\obj\\",
+        "outputPath": "C:\\Users\\drewharper\\workspace\\Gifter2\\Gifter.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\drewharper\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,13 +38,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNet.WebApi.Cors": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[5.2.7, )"
+              "version": "[16.4.0, )"
             },
-            "Microsoft.Data.SqlClient": {
+            "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[2.0.1, )"
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
             }
           },
           "imports": [
@@ -58,9 +62,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
